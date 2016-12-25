@@ -1,0 +1,13 @@
+hash: 15ab20a87a029dc004dd851064a7f6ca2b9281cb8dfa6f8296fc8685cf59ea1b
+updated: 2016-12-24T00:35:57.151698+01:00
+imports:
+- name: github.com/nats-io/go-nats
+  version: 61923ed1eaf8398000991fbbee2ef11ab5a5be0d
+- name: github.com/nats-io/nats
+  version: 6b6bf392d34d01f57cc563ae123f00c13778bd57
+  subpackages:
+  - encoders/builtin
+  - util
+- name: github.com/nats-io/nuid
+  version: 289cccf02c178dc782430d534e3c1f5b72af807f
+testImports: []

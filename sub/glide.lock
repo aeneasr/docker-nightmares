@@ -1,0 +1,15 @@
+hash: 5ffe3d9c8ee72ed6880ee23f7d505328d66ae7a1023f9adba6b5679566a86c10
+updated: 2016-12-24T00:45:42.839845784+01:00
+imports:
+- name: github.com/julienschmidt/httprouter
+  version: 8c199fb6259ffc1af525cc3ad52ee60ba8359669
+- name: github.com/nats-io/go-nats
+  version: 61923ed1eaf8398000991fbbee2ef11ab5a5be0d
+- name: github.com/nats-io/nats
+  version: 6b6bf392d34d01f57cc563ae123f00c13778bd57
+  subpackages:
+  - encoders/builtin
+  - util
+- name: github.com/nats-io/nuid
+  version: 289cccf02c178dc782430d534e3c1f5b72af807f
+testImports: []

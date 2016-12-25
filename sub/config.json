@@ -1,0 +1,14 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "ports": {
+    "10001": "3000"
+  },
+  "env": {
+    "NATS_URL": "nats://nats:4222",
+    "FOO": "${BAR}"
+  },
+  "networks": "psub",
+  "restart": "unless-stopped"
+}
