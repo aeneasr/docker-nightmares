@@ -20,7 +20,7 @@ services:
     environment:
       - NATS_URL=nats://nats:4222
     ports:
-      - "10001:3000"
+      - "1920:3000"
     restart: unless-stopped
 
   nats:
@@ -28,9 +28,7 @@ services:
     networks:
       - psubnet
     ports:
-      - "9006:4222"
-      - "9007:8222"
-      - "9008:6222"
+      - "1919:4222"
     restart: unless-stopped
 
 networks:
